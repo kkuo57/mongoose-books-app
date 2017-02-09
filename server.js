@@ -19,7 +19,8 @@ app.use(express.static('public'));
 // body parser config to accept our datatypes
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
+// to import your modules.export
+var db = require('./models');
 
 ////////////////////
 //  DATA
